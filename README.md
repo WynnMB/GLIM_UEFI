@@ -20,3 +20,7 @@ Copy the files and folders **inside** the extracted directory to the root direct
 
 Use a FAT32 USB drive, unless copying ISOs above the 4GiB file size limit of FAT32.
 If using ISOs above 4GiB, try exFAT. But remember that not all distributions support exFAT in their installer/live environment. 
+
+# Adding or removing ISOs.
+
+To add or remove an ISO file go to the boot/iso directory on the USB drive. The GLIM menu will automatically detect when you add or remove an ISO. So you don't need to manage the menu entries manually.
