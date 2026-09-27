@@ -24,3 +24,5 @@ If using ISOs above 4GiB, try exFAT. But remember that not all distributions sup
 # Adding or removing ISOs.
 
 To add or remove an ISO file go to the **boot/iso** directory on the USB drive. The GLIM menu will automatically detect when you add or remove an ISO. So you don't need to manage the menu entries manually.
+
+**Do not rename the ISOs. Keep them as they were downloaded.** GLIM parses ISO filenames to detect the name, architecture and version separately. It uses this for organization.
